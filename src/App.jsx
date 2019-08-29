@@ -1,6 +1,6 @@
 import React from "react";
 import Table from "./Table";
-/*Add import statement here*/
+import List from "./List";
 
 class App extends React.Component {
   constructor(props) {
@@ -65,7 +65,7 @@ class App extends React.Component {
     /*if (this.state.buttonClicked === "students") {
       tabChoice = (
         <List
-          placeholder="Add Assignment..." 
+          placeholder="Add Assignment..."
           currList={this.state.assignments}
           addFunction={this.addAssignment}
           title="Student Roster"
